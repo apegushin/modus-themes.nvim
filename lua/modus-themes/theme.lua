@@ -50,7 +50,7 @@ function M.setup()
 		SignColumnSB = { fg = c.fg_dim, bg = options.sign_column_background and bg_sidebar or bg_main }, -- Column where |signs| are displayed in the sidebar.
 		CursorLine = { fg = c.none, bg = c.bg_hl_line }, -- Screen-line at the cursor, when `cursorline` is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
 		CursorColumn = { fg = c.none, bg = c.bg_hl_line }, -- Screen-column at the cursor, when `cursorcolumn` is set.
-		NonText = { fg = c.fg_dim }, -- `@` at the end of the window, characters from `showbreak` and other characters that do not really exist in the text (e.g., `>` displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
+		NonText = { fg = c.fg_dim_speckey }, -- `@` at the end of the window, characters from `showbreak` and other characters that do not really exist in the text (e.g., `>` displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
 		ErrorMsg = { fg = c.fg_main, bg = c.bg_red_intense }, -- Error messages on the command line.
 		Conceal = { fg = c.yellow_faint }, -- Placeholder characters substituted for concealed text (see `conceallevel`).
 		Cursor = { fg = c.bg_main, bg = c.cursor }, -- Character under the cursor.
@@ -93,7 +93,7 @@ function M.setup()
 		DiffDelete = { fg = c.fg_removed, bg = c.bg_removed }, -- Diff mode: Deleted line |diff.txt|.
 		DiffChange = { fg = c.fg_changed, bg = c.bg_changed }, -- Diff mode: Changed line |diff.txt|.
 		DiffText = { fg = c.fg_changed, bg = c.bg_changed }, -- Diff mode: Changed text within a changed line |diff.txt|.
-		SpecialKey = { fg = c.fg_dim }, -- Unprintable characters: text displayed differently from what it really is.  But not `listchars` whitespace. |hl-Whitespace|.
+		SpecialKey = { fg = c.fg_dim_speckey }, -- Unprintable characters: text displayed differently from what it really is.  But not `listchars` whitespace. |hl-Whitespace|.
 		SpellBad = { sp = c.error, undercurl = true }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
 		SpellCap = { sp = c.warning, undercurl = true }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
 		SpellLocal = { sp = c.info, undercurl = true }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.

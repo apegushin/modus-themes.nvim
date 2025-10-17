@@ -10,11 +10,16 @@ M.modus_operandi = {
 	none = "NONE",
 
 	-- Base values
-	bg_main = "#ffffff",
-	bg_dim = "#f2f2f2",
-	bg_alt = "#f0f0f0",
+	-- uncomment to switch to original theme, unless prefer dimmer one
+	-- bg_main = "#ffffff",
+	-- bg_dim = "#f2f2f2",
+	-- bg_alt = "#f0f0f0",
+	bg_main = "#f2f2f2",
+	bg_dim = "#e7e7e7",
+	bg_alt = "#e9e9e9",
 	fg_main = "#000000",
 	fg_dim = "#595959",
+	fg_dim_speckey = "#aeaeae",
 	fg_alt = "#193668",
 	border = "#9f9f9f",
 	border_highlight = "#3b3b3b",
@@ -87,7 +92,7 @@ M.modus_operandi = {
 
 	-- Special purpose
 	bg_completion = "#c0deff",
-	bg_hl_line = "#dae5ec",
+	bg_hl_line = "#c2d1dc",
 	bg_paren_match = "#5fcfff",
 	bg_paren_expression = "#efd3f5",
 	bg_char_0 = "#7feaff",
