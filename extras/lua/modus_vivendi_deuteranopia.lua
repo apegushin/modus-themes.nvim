@@ -2133,9 +2133,7 @@ local highlights = {
   NoiceCompletionItemKindVariable = {
     link = "@variable"
   },
-  NonText = {
-    fg = "#989898"
-  },
+  NonText = {},
   Normal = {
     bg = "#000000",
     fg = "#ffffff"
@@ -2475,9 +2473,7 @@ local highlights = {
   SpecialChar = {
     fg = "#9ac8e0"
   },
-  SpecialKey = {
-    fg = "#989898"
-  },
+  SpecialKey = {},
   SpellBad = {
     sp = "#ffa00f",
     undercurl = true

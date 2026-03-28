@@ -9,7 +9,7 @@ local colors = {
   bg_added_faint = "#dcf8d1",
   bg_added_fringe = "#6cc06c",
   bg_added_refine = "#acd6a5",
-  bg_alt = "#f0f0f0",
+  bg_alt = "#e9e9e9",
   bg_blue_intense = "#bfc9ff",
   bg_blue_nuanced = "#ebebff",
   bg_blue_subtle = "#ccdfff",
@@ -44,7 +44,7 @@ local colors = {
   bg_removed_faint = "#ffe9e5",
   bg_removed_fringe = "#d84a4f",
   bg_removed_refine = "#f3b5a7",
-  bg_sidebar = "#f2f2f2",
+  bg_sidebar = "#e7e7e7",
   bg_status_line_active = "#cab9b2",
   bg_status_line_inactive = "#dfd9cf",
   bg_tab_alternate = "#c8b8ca",
@@ -117,6 +117,7 @@ local colors = {
   fg_changed = "#553d00",
   fg_changed_intense = "#655000",
   fg_dim = "#595959",
+  fg_dim_speckey = "#aeaeae",
   fg_inactive = "#404148",
   fg_main = "#000000",
   fg_removed = "#8f1313",
@@ -906,50 +907,50 @@ local highlights = {
     fg = "#553d00"
   },
   BufferOffset = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#193668"
   },
   BufferTabpageFill = {
     link = "TabLineFill"
   },
   BufferTabpages = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "NONE"
   },
   BufferVisible = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#000000"
   },
   BufferVisibleERROR = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#a0132f"
   },
   BufferVisibleHINT = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#005077"
   },
   BufferVisibleINFO = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#0000b0"
   },
   BufferVisibleIndex = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#0000b0"
   },
   BufferVisibleMod = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#7a4f2f"
   },
   BufferVisibleSign = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#0000b0"
   },
   BufferVisibleTarget = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#a60000"
   },
   BufferVisibleWARN = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#7a4f2f"
   },
   Character = {
@@ -1780,15 +1781,15 @@ local highlights = {
     fg = "#624416"
   },
   MiniTablineModifiedVisible = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#7a4f2f"
   },
   MiniTablineTabpagesection = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "NONE"
   },
   MiniTablineVisible = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#000000"
   },
   MiniTestEmphasis = {
@@ -2134,7 +2135,7 @@ local highlights = {
     link = "@variable"
   },
   NonText = {
-    fg = "#595959"
+    fg = "#aeaeae"
   },
   Normal = {
     bg = "#fbf7f0",
@@ -2149,7 +2150,7 @@ local highlights = {
     fg = "#000000"
   },
   NormalSB = {
-    bg = "#f2f2f2",
+    bg = "#e7e7e7",
     fg = "#000000"
   },
   NotifyBackground = {
@@ -2447,7 +2448,7 @@ local highlights = {
     fg = "#595959"
   },
   SignColumnSB = {
-    bg = "#f2f2f2",
+    bg = "#e7e7e7",
     fg = "#595959"
   },
   SnacksPicker = {
@@ -2476,7 +2477,7 @@ local highlights = {
     fg = "#005077"
   },
   SpecialKey = {
-    fg = "#595959"
+    fg = "#aeaeae"
   },
   SpellBad = {
     sp = "#a0132f",
@@ -2768,7 +2769,7 @@ local highlights = {
     underline = true
   },
   mkdCodeDelimiter = {
-    bg = "#f0f0f0",
+    bg = "#e9e9e9",
     fg = "#000000"
   },
   mkdCodeEnd = {

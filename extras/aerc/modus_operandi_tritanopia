@@ -4,9 +4,9 @@
 *.default=true
 *.normal=true
 
-*.bg = #ffffff
+*.bg = #f2f2f2
 *.fg = #000000
-*.selected.bg = #ffffff
+*.selected.bg = #f2f2f2
 *.selected.fg = #000000
 
 title.bg=#ccdfff
@@ -15,7 +15,7 @@ title.bold=true
 
 header.bold=true
 header.fg=#3548cf
-header.bg=#ffffff
+header.bg=#f2f2f2
 
 border.bg=#9f9f9f
 border.fg=#9f9f9f

@@ -38,7 +38,7 @@ border_style  = { fg = "#5c3f3d" }
 [status]
 separator_open  = ""
 separator_close = ""
-separator_style = { fg = "#f0f0f0", bg = "#f0f0f0" }
+separator_style = { fg = "#e9e9e9", bg = "#e9e9e9" }
 
 # Mode
 mode_normal = { fg = "#fbf7f0", bg = "#0031a9", bold = true }
@@ -84,7 +84,7 @@ hovered = { fg = "#000000", bg="#9f9690" }
 # Which
 [which]
 cols = 3
-mask            = { bg = "#f0f0f0" }
+mask            = { bg = "#e9e9e9" }
 cand            = { fg = "#005e8b" }
 rest            = { fg = "#0031a9" }
 desc            = { fg = "#721045" }
@@ -102,7 +102,7 @@ title_error = { fg = "#a60000" }
 on      = { fg = "#006800" }
 run     = { fg = "#721045" }
 hovered = { bg = "#9f9690" }
-footer  = { fg = "#000000", bg = "#f0f0f0" }
+footer  = { fg = "#000000", bg = "#e9e9e9" }
 
 [filetype]
 

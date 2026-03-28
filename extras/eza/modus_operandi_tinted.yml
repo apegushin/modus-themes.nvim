@@ -5,7 +5,7 @@ colourful: true
 # base colors
 define: &bg_main "#fbf7f0"
 define: &bg_dim = "#efe9dd"
-define: &bg_alt = "#f0f0f0"
+define: &bg_alt = "#e9e9e9"
 define: &fg_main = "#000000"
 define: &fg_dim = "#595959"
 define: &fg_alt = "#193668"

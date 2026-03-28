@@ -163,7 +163,7 @@ local colors = {
   ok = "#00c06f",
   olive = "#9cbd6f",
   pink = "#d09dc0",
-  preproc = "#ff7f9f",
+  preproc = "#dfaf7a",
   red = "#ff5f59",
   red_cooler = "#ff7f9f",
   red_faint = "#ff9f80",
@@ -1172,7 +1172,7 @@ local highlights = {
     fg = "#00d3d0"
   },
   Define = {
-    fg = "#ff7f9f"
+    fg = "#dfaf7a"
   },
   DefinitionCount = {
     fg = "#b6a0ff"
@@ -1481,7 +1481,7 @@ local highlights = {
     fg = "#ffffff"
   },
   Include = {
-    fg = "#ff7f9f"
+    fg = "#dfaf7a"
   },
   IndentBlanklineChar = {
     fg = "#1d2235",
@@ -2133,9 +2133,7 @@ local highlights = {
   NoiceCompletionItemKindVariable = {
     link = "@variable"
   },
-  NonText = {
-    fg = "#989898"
-  },
+  NonText = {},
   Normal = {
     bg = "#0d0e1c",
     fg = "#ffffff"
@@ -2293,10 +2291,10 @@ local highlights = {
     link = "Cursor"
   },
   PreCondit = {
-    fg = "#ff7f9f"
+    fg = "#dfaf7a"
   },
   PreProc = {
-    fg = "#ff7f9f"
+    fg = "#dfaf7a"
   },
   Question = {
     fg = "#2fafff"
@@ -2475,9 +2473,7 @@ local highlights = {
   SpecialChar = {
     fg = "#9ac8e0"
   },
-  SpecialKey = {
-    fg = "#989898"
-  },
+  SpecialKey = {},
   SpellBad = {
     sp = "#ff7f9f",
     undercurl = true

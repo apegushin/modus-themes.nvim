@@ -1,7 +1,7 @@
 !! Modus Themes for Xresources
 !! Auto generated with https://github.com/miikanissi/modus-themes.nvim/blob/master/lua/modus-themes/extras/xresources.lua
 
-*background: #ffffff
+*background: #f2f2f2
 *foreground: #000000
 *accent_light: #003497
 *accent: #3548cf

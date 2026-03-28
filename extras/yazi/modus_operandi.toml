@@ -8,12 +8,12 @@
 cwd = { fg = "#005e8b", italic = true }
 
 # Hovered
-hovered         = { bg = "#dae5ec" }
-preview_hovered = { bg = "#dae5ec" }
+hovered         = { bg = "#c2d1dc" }
+preview_hovered = { bg = "#c2d1dc" }
 
 # Find
 find_keyword  = { fg = "#000000", bg = "#dfa0f0", bold = true }
-find_position = { fg = "#3548cf", bg = "#f2f2f2", bold = true }
+find_position = { fg = "#3548cf", bg = "#e7e7e7", bold = true }
 
 # Marker
 marker_copied   = { fg = "#316500", bg = "#316500" }
@@ -22,14 +22,14 @@ marker_marked   = { fg = "#721045", bg = "#721045" }
 marker_selected = { fg = "#0031a9", bg = "#0031a9" }
 
 # Tab
-tab_active   = { fg = "#ffffff", bg = "#0031a9" }
-tab_inactive = { fg = "#595959", bg = "#ffffff" }
+tab_active   = { fg = "#f2f2f2", bg = "#0031a9" }
+tab_inactive = { fg = "#595959", bg = "#f2f2f2" }
 tab_width    = 1
 
 # Count
-count_copied   = { fg = "#ffffff", bg = "#316500" }
-count_cut      = { fg = "#ffffff", bg = "#972500" }
-count_selected = { fg = "#ffffff", bg = "#3548cf" }
+count_copied   = { fg = "#f2f2f2", bg = "#316500" }
+count_cut      = { fg = "#f2f2f2", bg = "#972500" }
+count_selected = { fg = "#f2f2f2", bg = "#3548cf" }
 
 # Border
 border_symbol = "│"
@@ -38,16 +38,16 @@ border_style  = { fg = "#3b3b3b" }
 [status]
 separator_open  = ""
 separator_close = ""
-separator_style = { fg = "#f0f0f0", bg = "#f0f0f0" }
+separator_style = { fg = "#e9e9e9", bg = "#e9e9e9" }
 
 # Mode
-mode_normal = { fg = "#ffffff", bg = "#0031a9", bold = true }
-mode_select = { fg = "#ffffff", bg = "#8f0075", bold = true }
-mode_unset  = { fg = "#ffffff", bg = "#8a290f", bold = true }
+mode_normal = { fg = "#f2f2f2", bg = "#0031a9", bold = true }
+mode_select = { fg = "#f2f2f2", bg = "#8f0075", bold = true }
+mode_unset  = { fg = "#f2f2f2", bg = "#8a290f", bold = true }
 
 # Progress
 progress_label  = { fg = "#595959", bold = true }
-progress_normal = { fg = "#ffffff" }
+progress_normal = { fg = "#f2f2f2" }
 progress_error  = { fg = "#a60000" }
 
 # Permissions
@@ -84,7 +84,7 @@ hovered = { fg = "#000000", bg="#9f9f9f" }
 # Which
 [which]
 cols = 3
-mask            = { bg = "#f0f0f0" }
+mask            = { bg = "#e9e9e9" }
 cand            = { fg = "#005e8b" }
 rest            = { fg = "#0031a9" }
 desc            = { fg = "#721045" }
@@ -102,7 +102,7 @@ title_error = { fg = "#a60000" }
 on      = { fg = "#006800" }
 run     = { fg = "#721045" }
 hovered = { bg = "#9f9f9f" }
-footer  = { fg = "#000000", bg = "#f0f0f0" }
+footer  = { fg = "#000000", bg = "#e9e9e9" }
 
 [filetype]
 

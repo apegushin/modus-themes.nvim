@@ -3,7 +3,7 @@
 module.exports =  {
   plain: {
     color: "#000000",
-    backgroundColor: "#ffffff",
+    backgroundColor: "#f2f2f2",
   },
   styles: [
     {
